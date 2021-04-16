@@ -1,0 +1,50 @@
+  <!DOCTYPE html>
+  <html lang="en"> 
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Tamil Nadu e-Province</title>
+    <link rel="stylesheet" href="navbar.css">
+    <style>
+      .mySlides {display:none;}
+      </style>
+  </head>
+  
+  <body style="background-color:#2d4259;">
+   <center> <img src="TN logo.png" alt="TN logo"></center>
+    <div class="topnav" style="margin: 20px 0px 40px;">
+      <a class="active" href="index.html">Home</a>
+      <a href="register.html">Register</a>
+      <a href="login.php">Login</a>
+      <a href="about.html">About</a>
+    </div>
+
+<center>
+<div class="w3-content w3-section" style="max-width:500px">
+  <img class="mySlides" src="slide1.PNG" style="height:400px; width:1000px;margin:30px -100px">
+  <img class="mySlides" src="slide2.jpg" style="height:400px; width:1000px;margin:30px -100px">
+  <img class="mySlides" src="slide3.png" style="height:400px; width:1000px;margin:30px -100px">
+  <img class="mySlides" src="slide4.jpg" style="width:auto">
+</div>
+</center>
+<script>
+  var myIndex = 0;
+  carousel();
+  
+  function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); 
+  }
+  </script>
+
+  </body>
+  </html>
+  
+

@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+
+<head>
+	<title>Registration</title>
+	<style>
+		.register-title {
+			width: 270px;
+			line-height: 43px;
+			margin: 8px auto 20px;
+			font-size: 19px;
+			font-weight: 500;
+			color: white;
+			color: rgba(255, 255, 255, 0.95);
+			text-align: center;
+			text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+			background: #d7604b;
+			border-radius: 3px;
+			background-image: -webkit-linear-gradient(top, #dc745e, #d45742);
+			background-image: -moz-linear-gradient(top, #dc745e, #d45742);
+			background-image: -o-linear-gradient(top, #dc745e, #d45742);
+			background-image: linear-gradient(to bottom, #dc745e, #d45742);
+			-webkit-box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), inset 0 0 0 1px rgba(255, 255, 255, 0.05), 0 0 1px 1px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3);
+			box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), inset 0 0 0 1px rgba(255, 255, 255, 0.05), 0 0 1px 1px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3);
+		}
+
+		td {
+
+			width: 250px;
+			font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+			font-size: 175%;
+
+		}
+
+		.button {
+			width: 200px;
+			line-height: 40px;
+			margin: 0px auto 20px;
+			font-size: 19px;
+			font-weight: 500;
+			color: white;
+			color: rgba(255, 255, 255, 0.95);
+			text-align: center;
+			text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+			background: #2cc426;
+			border-radius: 50px;
+			background-image: -webkit-linear-gradient(top, #f1e536, #23fa23);
+			background-image: -moz-linear-gradient(top, #f1e536, #23fa23);
+			background-image: -o-linear-gradient(top, #f1e536, #23fa23);
+			background-image: linear-gradient(to bottom, #f1e536, #23fa23);
+			-webkit-box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), inset 0 0 0 1px rgba(255, 255, 255, 0.05), 0 0 1px 1px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3);
+			box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), inset 0 0 0 1px rgba(255, 255, 255, 0.05), 0 0 1px 1px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3);
+		}
+	</style>
+
+</head>
+
+<body
+	style="background: #2d4259; background-image:url('front-bg.png');background-repeat:no-repeat;background-size:100%;">
+	<h1 class="register-title">REGISTRATION</h1>
+	<form action="insertdata.php" method="post">
+
+		<h1
+			style="color:maroon;font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;font-size: 250%;margin: 43px auto 20px;">
+			Applicant's Information</h1>
+		<table align='left'>
+			<tr>
+				<td
+					style="font-weight:1000; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+					Name of Applicant</td>
+				<td><input type='text' name='name' /></td>
+
+			</tr>
+			<tr></tr>
+			<tr></tr>
+			<tr></tr>
+			<tr></tr>
+			<tr></tr>
+			<tr></tr>
+			<tr></tr>
+			<tr>
+				<td
+					style="font-weight:1000; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+					Application Number</td>
+				<td><input type='text' name='UID' /></td>
+
+
+			</tr>
+			<tr></tr>
+			<tr></tr>
+			<tr></tr>
+			<tr></tr>
+			<tr></tr>
+			<tr></tr>
+			<tr></tr>
+			<tr>
+				<td
+					style="font-weight:1000; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+					Enter Password</td>
+				<td><input type='password' name='pwd' /></td>
+			</tr>
+			<tr></tr>
+			<tr></tr>
+			<tr></tr>
+			<tr></tr>
+			<tr></tr>
+			<tr></tr>
+			<tr></tr>
+			<tr>
+				<td
+					style="font-weight:1000; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+					Re-Enter Password</td>
+				<td><input type='password' name='repwd' /></td>
+			</tr>
+			<tr></tr>
+			<tr></tr>
+			<tr></tr>
+			<tr></tr>
+			<tr></tr>
+			<tr></tr>
+			<tr></tr>
+			<tr>
+				<td
+					style="font-weight:1000; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+					Date of Birth</td>
+				<td><input type="date" name='dob' /></td>
+			</tr>
+			<tr></tr>
+			<tr></tr>
+			<tr></tr>
+			<tr></tr>
+			<tr></tr>
+			<tr></tr>
+			<tr></tr>
+			<tr>
+				<td
+					style="font-weight:1000; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+					Gender</td>
+				<td><select name='gen'>
+						<option>Select Gender</option>
+						<option value='male'>Male</option>
+						<option value='female'>Female</option>
+					</select></td>
+			</tr>
+			<tr></tr>
+			<tr></tr>
+			<tr></tr>
+			<tr></tr>
+			<tr></tr>
+			<tr></tr>
+			<tr></tr>
+			<tr>
+				<td
+					style="font-weight:1000; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+					E-mail</td>
+				<td><input type='text' name='email' /></td>
+			</tr>
+			<tr></tr>
+			<tr></tr>
+			<tr></tr>
+			<tr></tr>
+			<tr></tr>
+			<tr></tr>
+			<tr></tr>
+			<tr>
+				<td
+					style="font-weight:1000; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+					Phone Number</td>
+				<td><input type='text' name='phnum' /></td>
+			</tr>
+			<tr></tr>
+			<tr></tr>
+			<tr></tr>
+			<tr></tr>
+			<tr></tr>
+			<tr></tr>
+			<tr></tr>
+			<tr>
+				<td
+					style="font-weight:1000;font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+					Address</td>
+				<td><textarea name="address" rows='2' cols='21'></textarea></td>
+			</tr>
+			<tr></tr>
+			<tr></tr>
+			<tr></tr>
+			<tr></tr>
+			<tr></tr>
+			<tr></tr>
+			<tr></tr>
+
+		</table>
+		<br><br><br><br><br><br><br>
+		<br><br><br><br><br><br><br>
+		<br><br><br><br><br><br><br>
+		<br><br><br><br><br>
+		<button class="button" type="submit" name="submit" value='submit'
+			style="color: black;font-weight:1000">Submit</button>
+
+	</form>
+</body>
+
+</html>
