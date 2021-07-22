@@ -3,7 +3,7 @@ Tamil Nadu (e-Province) Certificate Management System
 
 Citizens in every district face the difficulty in issue of government
 certificates like birth/death certificate, income and caste certificates, old age
-and widow pension, etc. This can be done with e-Province. This project is to
+and widow pension, etc. This difficulty can be overcomed with e-Province. This project is to
 make the government services available to the citizens in a convenient, efficient
 and transparent manner, by enabling it simple by reliable access over the internet.
 The main objective of this project is to bring the public services closer to the
